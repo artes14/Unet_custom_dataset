@@ -1,0 +1,78 @@
+2022-02-07 23:54:19,312 INFO    MainThread:16672 [internal.py:wandb_internal():91] W&B internal server running at pid: 16672, started at: 2022-02-07 23:54:19.307216
+2022-02-07 23:54:19,316 INFO    WriterThread:16672 [datastore.py:open_for_write():77] open: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\run-9xmpk4gg.wandb
+2022-02-07 23:54:19,317 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: check_version
+2022-02-07 23:54:19,350 DEBUG   SenderThread:16672 [sender.py:send():176] send: header
+2022-02-07 23:54:19,350 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: check_version
+2022-02-07 23:54:19,425 DEBUG   SenderThread:16672 [sender.py:send():176] send: run
+2022-02-07 23:54:19,435 INFO    SenderThread:16672 [sender.py:_maybe_setup_resume():396] checking resume status for None/U-Net/9xmpk4gg
+2022-02-07 23:54:19,710 DEBUG   SenderThread:16672 [git.py:repo():33] git repository is invalid
+2022-02-07 23:54:19,983 INFO    SenderThread:16672 [dir_watcher.py:__init__():168] watching files in: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files
+2022-02-07 23:54:19,984 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: run_start
+2022-02-07 23:54:19,985 INFO    SenderThread:16672 [sender.py:_start_run_threads():699] run started: 9xmpk4gg with start time 1644245658
+2022-02-07 23:54:19,987 DEBUG   SenderThread:16672 [sender.py:send():176] send: summary
+2022-02-07 23:54:19,988 INFO    SenderThread:16672 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2022-02-07 23:54:20,026 DEBUG   HandlerThread:16672 [meta.py:__init__():39] meta init
+2022-02-07 23:54:20,026 DEBUG   HandlerThread:16672 [meta.py:__init__():53] meta init done
+2022-02-07 23:54:20,026 DEBUG   HandlerThread:16672 [meta.py:probe():210] probe
+2022-02-07 23:54:20,038 DEBUG   HandlerThread:16672 [git.py:repo():33] git repository is invalid
+2022-02-07 23:54:20,039 DEBUG   HandlerThread:16672 [meta.py:_save_pip():57] save pip
+2022-02-07 23:54:20,040 DEBUG   HandlerThread:16672 [meta.py:_save_pip():71] save pip done
+2022-02-07 23:54:20,040 DEBUG   HandlerThread:16672 [meta.py:_save_conda():78] save conda
+2022-02-07 23:54:20,992 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\conda-environment.yaml
+2022-02-07 23:54:20,993 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\wandb-summary.json
+2022-02-07 23:54:20,993 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\requirements.txt
+2022-02-07 23:54:25,023 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\output.log
+2022-02-07 23:54:27,038 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_modified():229] file/dir modified: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\conda-environment.yaml
+2022-02-07 23:54:27,084 DEBUG   HandlerThread:16672 [meta.py:_save_conda():86] save conda done
+2022-02-07 23:54:27,084 DEBUG   HandlerThread:16672 [meta.py:probe():252] probe done
+2022-02-07 23:54:27,428 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:54:27,428 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:54:27,651 DEBUG   SenderThread:16672 [sender.py:send():176] send: config
+2022-02-07 23:54:27,652 DEBUG   SenderThread:16672 [sender.py:send():176] send: files
+2022-02-07 23:54:27,652 INFO    SenderThread:16672 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2022-02-07 23:54:28,051 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_modified():229] file/dir modified: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\conda-environment.yaml
+2022-02-07 23:54:28,052 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\wandb-metadata.json
+2022-02-07 23:54:28,293 INFO    Thread-20 :16672 [upload_job.py:push():133] Uploaded file C:\Users\artes\AppData\Local\Temp\tmpju6zz763wandb\2sq56dx5-wandb-metadata.json
+2022-02-07 23:54:30,067 INFO    Thread-17 :16672 [dir_watcher.py:_on_file_modified():229] file/dir modified: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220207_235416-9xmpk4gg\files\config.yaml
+2022-02-07 23:54:42,655 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:54:42,656 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:54:51,943 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:54:57,900 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:54:57,901 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:55:13,182 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:55:13,184 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:55:26,216 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:55:28,455 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:55:28,455 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:55:43,703 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:55:43,704 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:55:58,981 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:55:58,982 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:56:00,392 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:56:14,240 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:56:14,241 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:56:29,516 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:56:29,517 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:56:34,639 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:56:44,770 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:56:44,770 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:56:59,995 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:56:59,996 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:57:08,834 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:57:15,242 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:57:15,243 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:57:30,517 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:57:30,518 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:57:42,970 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:57:45,798 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:57:45,799 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:58:01,029 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:58:01,030 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:58:16,320 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:58:16,320 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:58:17,090 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats
+2022-02-07 23:58:31,546 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:58:31,547 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:58:47,096 DEBUG   HandlerThread:16672 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-07 23:58:47,096 DEBUG   SenderThread:16672 [sender.py:send_request():186] send_request: stop_status
+2022-02-07 23:58:51,225 DEBUG   SenderThread:16672 [sender.py:send():176] send: stats

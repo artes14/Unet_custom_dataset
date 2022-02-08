@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.10",
+    "heartbeatAt": "2022-02-08T12:38:39.521922",
+    "startedAt": "2022-02-08T12:38:37.484611",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1070",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--load",
+        "checkpoints/checkpoint_epoch3.pth"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-RNCLKWAK",
+    "username": "artes",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\python36env\\python.exe"
+}

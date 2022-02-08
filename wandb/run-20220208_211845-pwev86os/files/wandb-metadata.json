@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.10",
+    "heartbeatAt": "2022-02-08T12:18:47.108431",
+    "startedAt": "2022-02-08T12:18:45.138423",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1070",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:/Users/artes/Downloads/Pytorch-UNet-master/train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-RNCLKWAK",
+    "username": "artes",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\python36env\\python.exe"
+}

@@ -1,0 +1,45 @@
+2022-02-08 01:37:55,385 INFO    MainThread:20064 [internal.py:wandb_internal():91] W&B internal server running at pid: 20064, started at: 2022-02-08 01:37:55.378453
+2022-02-08 01:37:55,388 INFO    WriterThread:20064 [datastore.py:open_for_write():77] open: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\run-2xl3uhvz.wandb
+2022-02-08 01:37:55,388 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: check_version
+2022-02-08 01:37:55,422 DEBUG   SenderThread:20064 [sender.py:send():176] send: header
+2022-02-08 01:37:55,422 DEBUG   SenderThread:20064 [sender.py:send_request():186] send_request: check_version
+2022-02-08 01:37:55,505 DEBUG   SenderThread:20064 [sender.py:send():176] send: run
+2022-02-08 01:37:55,512 INFO    SenderThread:20064 [sender.py:_maybe_setup_resume():396] checking resume status for None/U-Net/2xl3uhvz
+2022-02-08 01:37:55,817 DEBUG   SenderThread:20064 [git.py:repo():33] git repository is invalid
+2022-02-08 01:37:56,081 INFO    SenderThread:20064 [dir_watcher.py:__init__():168] watching files in: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files
+2022-02-08 01:37:56,081 INFO    SenderThread:20064 [sender.py:_start_run_threads():699] run started: 2xl3uhvz with start time 1644251874
+2022-02-08 01:37:56,082 DEBUG   SenderThread:20064 [sender.py:send():176] send: summary
+2022-02-08 01:37:56,084 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: run_start
+2022-02-08 01:37:56,087 INFO    SenderThread:20064 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2022-02-08 01:37:56,129 DEBUG   HandlerThread:20064 [meta.py:__init__():39] meta init
+2022-02-08 01:37:56,129 DEBUG   HandlerThread:20064 [meta.py:__init__():53] meta init done
+2022-02-08 01:37:56,129 DEBUG   HandlerThread:20064 [meta.py:probe():210] probe
+2022-02-08 01:37:56,145 DEBUG   HandlerThread:20064 [git.py:repo():33] git repository is invalid
+2022-02-08 01:37:56,146 DEBUG   HandlerThread:20064 [meta.py:_save_pip():57] save pip
+2022-02-08 01:37:56,147 DEBUG   HandlerThread:20064 [meta.py:_save_pip():71] save pip done
+2022-02-08 01:37:56,147 DEBUG   HandlerThread:20064 [meta.py:_save_conda():78] save conda
+2022-02-08 01:37:57,091 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\wandb-summary.json
+2022-02-08 01:37:57,092 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\requirements.txt
+2022-02-08 01:37:57,093 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\conda-environment.yaml
+2022-02-08 01:38:01,125 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\output.log
+2022-02-08 01:38:03,397 DEBUG   HandlerThread:20064 [meta.py:_save_conda():86] save conda done
+2022-02-08 01:38:03,397 DEBUG   HandlerThread:20064 [meta.py:probe():252] probe done
+2022-02-08 01:38:03,748 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-08 01:38:03,748 DEBUG   SenderThread:20064 [sender.py:send_request():186] send_request: stop_status
+2022-02-08 01:38:03,956 DEBUG   SenderThread:20064 [sender.py:send():176] send: config
+2022-02-08 01:38:03,957 DEBUG   SenderThread:20064 [sender.py:send():176] send: files
+2022-02-08 01:38:03,957 INFO    SenderThread:20064 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2022-02-08 01:38:04,163 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_modified():229] file/dir modified: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\conda-environment.yaml
+2022-02-08 01:38:04,163 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_created():216] file/dir created: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\wandb-metadata.json
+2022-02-08 01:38:04,529 INFO    Thread-20 :20064 [upload_job.py:push():133] Uploaded file C:\Users\artes\AppData\Local\Temp\tmplwh0qk0ewandb\1urlz0a7-wandb-metadata.json
+2022-02-08 01:38:06,178 INFO    Thread-17 :20064 [dir_watcher.py:_on_file_modified():229] file/dir modified: E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_013752-2xl3uhvz\files\config.yaml
+2022-02-08 01:38:18,971 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-08 01:38:18,971 DEBUG   SenderThread:20064 [sender.py:send_request():186] send_request: stop_status
+2022-02-08 01:38:28,209 DEBUG   SenderThread:20064 [sender.py:send():176] send: stats
+2022-02-08 01:38:34,235 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-08 01:38:34,237 DEBUG   SenderThread:20064 [sender.py:send_request():186] send_request: stop_status
+2022-02-08 01:38:49,485 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-08 01:38:49,486 DEBUG   SenderThread:20064 [sender.py:send_request():186] send_request: stop_status
+2022-02-08 01:39:02,615 DEBUG   SenderThread:20064 [sender.py:send():176] send: stats
+2022-02-08 01:39:04,754 DEBUG   HandlerThread:20064 [handler.py:handle_request():121] handle_request: stop_status
+2022-02-08 01:39:04,755 DEBUG   SenderThread:20064 [sender.py:send_request():186] send_request: stop_status

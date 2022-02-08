@@ -1,0 +1,14 @@
+2022-02-08 01:56:19,610 INFO    MainThread:13048 [wandb_setup.py:_flush():69] setting env: {}
+2022-02-08 01:56:19,610 INFO    MainThread:13048 [wandb_setup.py:_flush():69] setting login settings: {'anonymous': 'must'}
+2022-02-08 01:56:19,610 INFO    MainThread:13048 [wandb_init.py:_log_setup():336] Logging user logs to E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_015619-2v2eqrxg\logs\debug.log
+2022-02-08 01:56:19,610 INFO    MainThread:13048 [wandb_init.py:_log_setup():337] Logging internal logs to E:\Users\artes\Downloads\Pytorch-UNet-master\wandb\run-20220208_015619-2v2eqrxg\logs\debug-internal.log
+2022-02-08 01:56:19,611 INFO    MainThread:13048 [wandb_init.py:init():369] calling init triggers
+2022-02-08 01:56:19,611 INFO    MainThread:13048 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2022-02-08 01:56:19,611 INFO    MainThread:13048 [wandb_init.py:init():418] starting backend
+2022-02-08 01:56:19,611 INFO    MainThread:13048 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2022-02-08 01:56:19,617 INFO    MainThread:13048 [backend.py:ensure_launched():132] starting backend process...
+2022-02-08 01:56:19,723 INFO    MainThread:13048 [backend.py:ensure_launched():137] started backend process with pid: 13668
+2022-02-08 01:56:19,723 INFO    MainThread:13048 [wandb_init.py:init():423] backend started and connected
+2022-02-08 01:56:19,726 INFO    MainThread:13048 [wandb_init.py:init():465] updated telemetry
+2022-02-08 01:56:19,727 INFO    MainThread:13048 [wandb_init.py:init():484] communicating current version
