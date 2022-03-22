@@ -1,0 +1,35 @@
+INFO: Starting training:
+        Epochs:          50
+        Batch size:      1
+        Learning rate:   0.0001
+        Training size:   107
+        Validation size: 11
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/50:   0%|                                                                                                                                                                                                | 0/107 [00:08<?, ?img/s]
+Traceback (most recent call last):
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\train.py", line 185, in <module>
+    train_net(net=net,
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\train.py", line 92, in train_net
+    masks_pred = net(images)
+  File "C:\ProgramData\Anaconda3\envs\torchenv\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\unet\unet_model.py", line 26, in forward
+    x1 = self.inc(x)
+  File "C:\ProgramData\Anaconda3\envs\torchenv\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\unet\unet_parts.py", line 25, in forward
+    return self.double_conv(x)
+  File "C:\ProgramData\Anaconda3\envs\torchenv\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\torchenv\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "C:\ProgramData\Anaconda3\envs\torchenv\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\torchenv\lib\site-packages\torch\nn\modules\batchnorm.py", line 148, in forward
+    self.num_batches_tracked.add_(1)  # type: ignore[has-type]
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

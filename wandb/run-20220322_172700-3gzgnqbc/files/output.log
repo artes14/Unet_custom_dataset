@@ -1,0 +1,23 @@
+INFO: Starting training:
+        Epochs:          50
+        Batch size:      1
+        Learning rate:   0.0001
+        Training size:   107
+        Validation size: 11
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/50:   0%|                                                                                                                                                                                                | 0/107 [00:06<?, ?img/s]
+Traceback (most recent call last):
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\train.py", line 185, in <module>
+    train_net(net=net,
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\train.py", line 94, in train_net
+    + dice_loss(F.softmax(masks_pred, dim=1).float(),
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\utils\dice_score.py", line 40, in dice_loss
+    return 1 - fn(input, target, reduce_batch_first=True)
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\utils\dice_score.py", line 31, in multiclass_dice_coeff
+    dice += dice_coeff(input[:, channel, ...], target[:, channel, ...], reduce_batch_first, epsilon)
+  File "E:\Users\artes\Downloads\Pytorch-UNet-master\utils\dice_score.py", line 12, in dice_coeff
+    inter = torch.dot(input.reshape(-1), target.reshape(-1))
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`

@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-03-22T08:24:57.135855",
+    "startedAt": "2022-03-22T08:24:55.260331",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\Users\\artes\\Downloads\\Pytorch-UNet-master\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/artes14/Unet_custom_dataset.git",
+        "commit": "f8a0b22ea23e1581d23551fb835e35d05a6d3a41"
+    },
+    "email": "artes3412@gmail.com",
+    "root": "E:/Users/artes/Downloads/Pytorch-UNet-master",
+    "host": "DESKTOP-RNCLKWAK",
+    "username": "artes",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\torchenv\\python.exe"
+}
